@@ -1,0 +1,96 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Color Variables */
+:root {
+    --text1: #091133;
+    --text2: #6F7CB2;
+    --text3: #5D6970;
+}
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Base Styles */
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/* General Text Content Styles */
+.text-content {
+    width: 675px;
+    height: 202px;
+    text-align: justify;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+/* Title Box Styles */
+.title-box h1 {
+    color: var(--text1);
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.title-box p {
+    color: var(--text2);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+/* Boxes Styles */
+.list-text {
+    display: flex;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Text Box Styles */
+.text-box {
+    margin-bottom: 100px;
+    width: calc(100% / 2 - 20px);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.text-box h3 {
+    color: var(--text1);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.text-box p {
+    color: var(--text3);
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+/* Image Styles */
+.image-content img {
+    width: 40vw;
+    min-width: 675px;
+    height: 100vh;
+    min-height: 824px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+/* Hover Effect */
+.text-box:hover {
+    transform: scale(1.1);
+}

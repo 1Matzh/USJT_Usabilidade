@@ -21,16 +21,17 @@ iframe {
 }
 
 .container {
+    padding: 0 100px;
+    text-align: center;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .row-main {
-    align-items: center;
-    justify-content: center;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .line {
@@ -40,9 +41,10 @@ iframe {
 }
 
 .list {
-    text-align: left;
-    flex-direction: column;
-    padding-left: 20vh;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 25px;
 }
 
 .list ul {
